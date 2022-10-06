@@ -32,6 +32,7 @@ h2 {
 }
 
 .threevert {
+  height: 33.3%;
 }
 
 .threehoriz {
@@ -58,6 +59,10 @@ h2 {
 /* Colors */
 
 /* QUESTION 1 */
+
+.red{
+  background-color: red;
+}
 
 .orange {
   background-color: orange;
@@ -87,6 +92,10 @@ h2 {
   background-color: #fff;
 }
 
+#white{
+  background-color: white;
+}
+
 .black {
   background-color: #000;
 }
@@ -94,15 +103,21 @@ h2 {
 /* BEGIN QUESTION 2 */
 
 .thailand-red {
-  /* TODO */
+  width : 500px;
+  height: 55px;
+  background-color: #B5002D;  
 }
 
 .thailand-white {
-  /* TODO */
+  width : 500px;
+  height: 55px;
+  background-color: white;
 }
 
 .thailand-blue {
-  /* TODO */
+  width : 500px;
+  height: 90px;
+  background-color:  #2E2A4C
 }
 
 /* END QUESTION 2 */
@@ -110,15 +125,21 @@ h2 {
 /* BEGIN QUESTION 3 */
 
 .romania-blue {
+ 
   background-color: #002c84;
+  
 }
 
 .romania-yellow {
+
   background-color: #ffcf00;
+  
 }
 
 .romania-red {
+
   background-color: #e10017;
+  
 }
 
 /* END QUESTION 3 */
@@ -128,8 +149,17 @@ h2 {
   background-color: #006341;
 }
 
+.mexico-red{
+  background-color: #ce1126;
+}
+
 .mexico-img {
-  /* TODO */
+  display: flex;
+  max-width: 50%;
+  max-height: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: center;
 }
 
 .mexico-red {
@@ -138,28 +168,39 @@ h2 {
 
 /* QUESTION 6 */
 .margin-container {
-  height: 300px;
-  width: 1030px;
+  height: 200px;
+  width: 1000px;
   border-style: solid;
-  margin-bottom: 5rem;
   display: flex;
   justify-content: center;
+  background-position: center;
+  align-self: center;
 }
+
+
 
 /* For margin practice */
 .flag1 {
   background-color: red;
-  /* TODO */
+  height: 200px;
+  width: 520px;
+  border-style: solid;
+  margin-bottom: 5rem;
+  margin-right: 5px;
 }
 
 .flag2 {
   background-color: blue;
-  /* TODO */
+  height: 200px;
+  width: 520px;
+  border-style: solid;
+  margin-bottom: 5rem;
+  margin-right: 5px;
 }
 /* For padding practice */
 .padding-container {
   box-sizing: border-box;
   background-color: lightblue;
   background-clip: content-box, padding-box;
-  /* TODO */
+  padding: 60px;
 }
